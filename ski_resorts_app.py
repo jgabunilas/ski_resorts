@@ -20,7 +20,7 @@ app = Dash(
     external_stylesheets=[dbc.themes.CERULEAN, dbc_css],
     #     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-
+server = app.server
 
 # Import the dataframe and assign four new columns that, for each country, ranks the resorts by elevation, price, slope, and snow cannon count
 # Modified to read .xlsx files. Requires openpyxl
@@ -412,5 +412,5 @@ def report_card(hoverData):
 
 
 if __name__ == "__main__":
-    app.run_server(port=3824, jupyter_mode="external", debug=True)
+    app.run_server()
 #     app.run_server(port=2381, jupyter_mode="external", debug=True)
