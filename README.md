@@ -16,7 +16,8 @@ This application is hosted online at https://resort-explorer.onrender.com/. Plea
 <p style="text-align: center;">There is no spoon.</p>
 
 ## Part 1: Resort Finder Map
-The first tab of the application presents the user with an interactive global map with which they can locate ski resorts that match their preferences selected from a set of options. 
+The first tab of the application presents the user with an interactive global map with which they can locate ski resorts that match their preferences selected from a set of options. The title at the top of the page is dynamic and changes to reflect maximum lift ticket price selected by the user.
+
 
 <p align="center">
   <img src="image-3.png" />
@@ -38,18 +39,15 @@ The user first selects a maximum lift ticket price from the slider. Next, using 
   <img src="image-4.png" />
 </p>
 
-The selected price and options are passed to a callback function that filters the dataset accordingly, removing resorts that do not fit the user's preferences and price range. Finally, the function updates the [density mapbox](https://plotly.com/python/mapbox-density-heatmaps/) visualization to include only the filtered resorts. The resorts are color-coded by the total number of slopes. The user is able to mouse over the resorts to view additional additional information in the tooltip. 
+The selected price and options are passed to a callback function that filters the dataset accordingly, removing resorts that do not fit the user's preferences and price range. The function updates the [density mapbox](https://plotly.com/python/mapbox-density-heatmaps/) visualization to include only the filtered resorts. The resorts are color-coded by the total number of slopes. The user is able to mouse over the resorts to view additional additional information in the tooltip. Additionally, the callback function modifies the title of at the top of the page based on the selected lift ticket price.
 
 <p align="center">
   <img src="image-5.png" />
 </p>
 
-Note that title at the top of the page is dynamic and changes to reflect maximum lift ticket price selected by the user. This functionality is also handled by the callback function.
-
-
 ## Part 2: Resort Rankings
 
-The second tab of the application displays a bar graph showing the "top" ski resorts for a country and metric selected by the user, up to a maximum of 10. The user can then hover over the bar graph pertaining to a specific resort, which will update the Resort Report Card with additional ranking information pertaining to the selected resort.
+The second tab of the application displays a bar graph showing the "top" ski resorts for a country and metric selected by the user, up to a maximum of 10. The user can then hover over the bar graph pertaining to a specific resort, which will update the Resort Report Card with additional ranking information pertaining to the selected resort. The title at the top of the page is dynamic and changes to reflect the selected country and number of resorts displayed in the bar graph.
 
 <p align="center">
   <img src="image-6.png" />
