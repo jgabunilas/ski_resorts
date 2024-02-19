@@ -260,10 +260,10 @@ app.layout = dbc.Container(
                                             dcc.Markdown(
                                                 """
                                                 #### **Ranking Guide**  
-                                                **Elevation**: Rank 1 has the lowest elevation.  
-                                                **Lift Ticket Price**: Rank 1 has the lowest price.  
-                                                **Slope Count**: Rank 1 has the smallest number of slopes.  
-                                                **Cannon Count**: Rank 1 has the smallest number of snow cannons.  
+                                                **Elevation**: A higher number indicates a higher elevation.
+                                                **Lift Ticket Price**: A higher number indicates a higher price.  
+                                                **Slope Count**: A higher number indicates a larger number of slopes.  
+                                                **Cannon Count**: A higher number indicates a larger number of snow cannons.  
                                                 
                                                 """,
                                                 className="dbc",
