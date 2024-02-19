@@ -259,8 +259,8 @@ app.layout = dbc.Container(
                                         dbc.Card(
                                             dcc.Markdown(
                                                 """
-                                                #### **Ranking Guide**  
-                                                **Elevation**: A higher number indicates a higher elevation.
+                                                #### **Ranking Guide**
+                                                **Elevation**: A higher number indicates a higher elevation.  
                                                 **Lift Ticket Price**: A higher number indicates a higher price.  
                                                 **Slope Count**: A higher number indicates a larger number of slopes.  
                                                 **Cannon Count**: A higher number indicates a larger number of snow cannons.  
