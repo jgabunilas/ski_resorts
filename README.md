@@ -56,12 +56,18 @@ The second tab of the application displays a bar graph showing the "top" ski res
 
 First, the user selects a Continent, Country, and ranking Metric from the provided dropdown menus. The **Country** dropdown menu is dynamic and changes based on the selection made from the **Continent** dropdown menu. This behavior is handled by a dedicated callback function that accepts the input from the **Continent** dropdown menu and filters the options available in the **Country** dropdown accordingly. 
 
-<p align="center">
+<!-- <p align="center">
   <img src="image-7.png" />
 </p>
 <p align="center">
   <img src="image-8.png" />
+</p> -->
+
+<p align="center">
+  <img src="image-7.png" width="300" />
+  <img src="image-8.png" width="312" /> 
 </p>
+
 
 Next, the user selects a Metric from the **Metric** dropdown menu by which the ski resorts are to be ranked. The Country and Metric selections feed into a second callback function that filters the dataset to the ski resorts within the selected country and ranks them according to the selected metric. The function then generates a bar graph with the sorted rankings of the resorts. 
 
