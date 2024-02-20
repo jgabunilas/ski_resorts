@@ -13,8 +13,6 @@ This application is hosted online at https://resort-explorer.onrender.com/. Plea
 
 *Please note that the purpose of this application is to illustrate the use of the Plotly and Dash libraries. The underlying dataset may contain errors and inaccuracies and therefore should not be relied on as a source of factual information.*
 
-<p style="text-align: center;">There is no spoon.</p>
-
 ## Part 1: Resort Finder Map
 The first tab of the application presents the user with an interactive global map with which they can locate ski resorts that match their preferences selected from a set of options. The title at the top of the page is dynamic and changes to reflect maximum lift ticket price selected by the user.
 
